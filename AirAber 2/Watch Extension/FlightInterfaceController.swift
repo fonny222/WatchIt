@@ -44,7 +44,7 @@ class FlightInterfaceController: WKInterfaceController {
         }
     }
     
-    override override func awake(withContext context: Any?) {
+    override  func awake(withContext context: Any?) {
         super.awake(withContext: context)
         flight = Flight.allFlights().first!
     }
